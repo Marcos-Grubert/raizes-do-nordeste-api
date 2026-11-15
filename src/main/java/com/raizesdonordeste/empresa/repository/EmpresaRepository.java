@@ -1,4 +1,7 @@
 package com.raizesdonordeste.empresa.repository;
 
-public interface EmpresaRepository {
+import com.raizesdonordeste.empresa.model.Empresa;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface EmpresaRepository extends JpaRepository<Empresa, Long> {
 }
