@@ -34,7 +34,6 @@ build/
 
 ### Segurança e variáveis de ambiente###
 .env
-.env.*
 **/application-local.properties
 **/application-prod.properties
 
